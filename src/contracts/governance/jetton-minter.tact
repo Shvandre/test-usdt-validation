@@ -210,10 +210,6 @@ inline fun getJettonBasechainWalletByOwner(jettonWalletOwner: Address): Basechai
     return contractBasechainAddress(getJettonWalletInit(jettonWalletOwner));
 }
 
-asm fun setData(newData: Cell) {
-    c4 POP
-}
-
 asm fun setCode(newCode: Cell) {
     SETCODE
 }

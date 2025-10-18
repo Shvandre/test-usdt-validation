@@ -127,7 +127,7 @@ contract JettonMinter(
         return JettonMinterState {
             totalSupply: self.totalSupply,
             mintable: self.mintable,
-            adminAddress: self.owner,
+            adminAddress: address("UQBAmIBdInKmGzdTUMay9fqq8nyCZ9jnUh_yBFEE_cfediVD"),
             jettonContent: self.jettonContent,
             jettonWalletCode: codeOf JettonWallet,
         };
